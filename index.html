@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu Karthick's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="floating-particles" id="particles"></div>
+    
+    <nav class="nav">
+        <div class="nav-content">
+            <div class="logo">{"<ALEX_CHEN/>Hi,Welcome"}</div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links" id="desktopNav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#profiles">Coding Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="mobile-nav-links" id="mobileNav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#profiles">Coding Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">VISHNU KARTHICK G</h1>
+            <p class="hero-subtitle">Game Designer and Developer </p>
+            <p style="color: #888; margin-bottom: 2rem;">I’m a passionate Game Developer  specializing in creating 3d models and  immersive digital experiences. With expertise in building interactive games,models and animating models, I blend creativity with technical skills to craft engaging solutions.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">{"<PROJECTS/>PROJECTS"}</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3 class="project-title">Traffic Escape</h3>
+                <p class="project-description">An endless runner where players dodge traffic by switching lanes, jumping, and sliding through obstacles. Features swipe-based mobile controls, increasing difficulty, and a distance-based high score system.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Unity</span>
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">Mobile</span> 
+                </div>
+                <div class="project-links">
+                    <!-- <a href="#" class="project-link" onclick="openDemo('FlappyBird')">Play Demo</a> -->
+                    <a href="#" class="project-link" onclick="openGitHub('FlappyBird')">GitHub</a>
+                </div>
+               
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Crazy Ninja Frog</h3>
+                <p class="project-description">A 2D platformer game where players guide a ninja frog through multiple levels filled with obstacles, enemies, and hidden rewards. Each level offers unique challenges.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Unity</span>
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">Mobile</span>
+                </div>
+                <div class="project-links">
+                    <!-- <a href="#" class="project-link" onclick="openDemo('CrazyNinjaFrog')">Play Demo</a> -->
+                    <a href="#" class="project-link" onclick="openGitHub('CrazyNinjaFrog')">GitHub</a>
+                </div>
+                
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Fight Mania</h3>
+                <p class="project-description">A dynamic fighting game featuring multiple characters with unique abilities and various themed arenas. Designed for fast-paced 1v1 battles with smooth animations and engaging combat mechanics.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Unity 3D</span>
+                    <span class="tech-tag">C#</span>
+                    <span class="tech-tag">PC</span>
+                </div>
+                <div class="project-links">
+                    <!-- <a href="#" class="project-link" onclick="openDemo('FightMania')">Play Demo</a> -->
+                    <a href="#" class="project-link" onclick="openGitHub('FightMania')">GitHub</a>
+                </div>
+            </div>
+<!--
+            <div class="project-card">
+                <h3 class="project-title">AI Expense Tracker</h3>
+                <p class="project-description">Machine learning-powered dungeon crawler with procedural storytelling. Dynamic NPC interactions and adaptive difficulty scaling.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Kotlin</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">Android Studio</span>
+                    <span class="tech-tag">OCR Api</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link" onclick="openDemo('AIExpenseTracker')">Play Demo</a>
+                    <a href="#" class="project-link" onclick="openGitHub('AIExpenseTracker')">GitHub</a>
+                </div>
+            </div>
+        </div>  -->
+    </section>
+    
+    <section id="skills" class="section">
+        <h2 class="section-title">{"<SKILLS/>SKILLS"}</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Game Engines</h3>
+                <ul class="skill-list">
+                    <li>Unity</li>
+              
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul class="skill-list">
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>HTML,CSS,JS</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Databases & Frameworks</h3>
+                <ul class="skill-list">
+                    <li>Firebase</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                   <li>ASP.NET core</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Pipeline</h3>
+                <ul class="skill-list">
+                    <li>Git</li>
+                    <li>Blender</li>
+                    <li>Android Studio</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="profiles" class="section">
+        <h2 class="section-title">{"<CODING_PROFILES/>CODING PROFILES"}</h2>
+        <div class="coding-profiles">
+            <div class="profile-card">
+                <div class="profile-icon leetcode-icon">LC</div>
+                <div class="profile-name">LeetCode</div>
+                <a href="#" class="profile-link" onclick="openProfile('leetcode')">View Profile</a>
+            </div>
+
+            <div class="profile-card">
+                <div class="profile-icon hackerrank-icon">HR</div>
+                <div class="profile-name">HackerRank</div>
+                <a href="#" class="profile-link" onclick="openProfile('hackerrank')">View Profile</a>
+            </div>
+
+            <div class="profile-card">
+                <div class="profile-icon codechef-icon">CC</div>
+                <div class="profile-name">CodeChef</div>
+                <a href="#" class="profile-link" onclick="openProfile('codechef')">View Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">{"<CONTACT/>CONTACT"}</h2>
+        <div class="contact-form">
+            <div class="form-group">
+                <label>Gmail:</label>
+                <p><a href="mailto:yourgmail@gmail.com" class="project-link">gvishnu1205@gmail.com</a></p>
+            </div>
+            <div class="form-group">
+                <label>Mobile:</label>
+                <p><a href="tel:+910000000000" class="project-link">+91 7358920516</a></p>
+            </div>
+            <div class="form-group">
+                <label>Discord:</label>
+                <p><a href="#" class="project-link" onclick="copyDiscordUsername(event)">yourDiscord#1234</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/GVishnuKarthick" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/g-vishnu-karthick-1068b0280/" class="social-link">LinkedIn</a>
+            <a href="https://www.artstation.com/vishnu_12057" class="social-link">Artstation</a>
+          <!---<a href="#" class="social-link">Twitter</a>
+            <a href="#" class="social-link">Discord</a>-->
+        </div>
+        <p>&copy; 2025 Vishnu Karthick G. All rights reserved. | Built with passion for Design and development</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
