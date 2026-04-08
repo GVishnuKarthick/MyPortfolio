@@ -127,11 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
     
-<<<<<<< HEAD
-    document.querySelectorAll('.project-card, .model-card, .skill-category, .profile-card').forEach(el => {
-=======
     document.querySelectorAll('.project-card, .model-card, .skill-category, .profile-card, .achievement-card').forEach(el => {
->>>>>>> d86a38b (added achievements)
         observer.observe(el);
     });
 });

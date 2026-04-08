@@ -619,8 +619,7 @@ body {
     animation: float 20s infinite linear;
 }
 
-<<<<<<< HEAD
-=======
+
 .achievements-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -696,7 +695,8 @@ body {
     margin-bottom: 1rem;
 }
 
->>>>>>> d86a38b (added achievements)
+
+
 @keyframes float {
     0% {
         transform: translateY(100vh) rotate(0deg);
@@ -808,22 +808,14 @@ body {
         font-size: 0.9rem;
     }
 
-<<<<<<< HEAD
-    .skills-container {
-=======
     .skills-container,
     .achievements-container {
->>>>>>> d86a38b (added achievements)
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
 
-<<<<<<< HEAD
-    .skill-category {
-=======
     .skill-category,
     .achievement-card {
->>>>>>> d86a38b (added achievements)
         padding: 1.5rem;
     }
 
